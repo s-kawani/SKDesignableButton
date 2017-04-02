@@ -8,34 +8,53 @@
 import UIKit
 
 @IBDesignable
-class SKDesignableButton: UIButton {
+final public class SKDesignableButton: UIButton {
   
   @IBInspectable var borderColor :  UIColor = UIColor.blue
   @IBInspectable var borderWidth : CGFloat = 1.0
   @IBInspectable var cornerRadius : CGFloat = 5.0
   
-  override func draw(_ rect: CGRect) {
+  override public func draw(_ rect: CGRect) {
     layer.borderColor = borderColor.cgColor
     layer.borderWidth = borderWidth
     layer.cornerRadius = cornerRadius
   }
   
-  override init(frame: CGRect) {
+  override public init(frame: CGRect) {
     super.init(frame: frame)
   }
   
-  required init?(coder aDecoder: NSCoder) {
+    
+  required public init?(coder aDecoder: NSCoder) {
     super.init(coder: aDecoder)
   }
-  
-  init(frame:CGRect, title: String, borderColor: UIColor?, borderWidth: CGFloat?, cornerRadius: CGFloat?) {
+    
+  public init(frame:CGRect, title: String, borderColor: UIColor?, borderWidth: CGFloat?, cornerRadius: CGFloat?) {
     
     super.init(frame:frame)
     
     if borderColor != nil {
-      layer.borderColor = borderColor?.cgColor
+      self.borderColor = borderColor!
+    }
+    
+    if title != nil {
+      self.setTitle(title, for: .normal)
+    }
+    
+    if borderColor != nil {
+      self.borderColor = borderColor!
+    }
+    
+    if borderWidth != nil {
+      self.borderWidth = borderWidth!
+    }
+    
+    if cornerRadius != nil {
+      self.cornerRadius = cornerRadius!
     }
     
   }
+  
+    
   
 }
