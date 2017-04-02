@@ -1,0 +1,6 @@
+framework module Pods_SKDesignableButton_Example {
+  umbrella header "Pods-SKDesignableButton_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

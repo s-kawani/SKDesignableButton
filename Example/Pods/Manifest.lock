@@ -1,0 +1,16 @@
+PODS:
+  - SKDesignableButton (0.1.0)
+
+DEPENDENCIES:
+  - SKDesignableButton (from `../`)
+
+EXTERNAL SOURCES:
+  SKDesignableButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SKDesignableButton: 6b25795cbeae845b3174e15f490c83eb46cb4638
+
+PODFILE CHECKSUM: a6d86bab31e8be3f8868ed7345587e65cbbc440e
+
+COCOAPODS: 1.1.1

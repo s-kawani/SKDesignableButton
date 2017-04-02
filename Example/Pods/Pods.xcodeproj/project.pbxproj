@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E26A7832D0701E9996BC6AA4B26D48D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		33DDDB0EDC76E56697F338860C7E5494 /* Pods-SKDesignableButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8167378387095BF2F2D9C099DD4497A /* Pods-SKDesignableButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4943BF9BA86C05F4840361DD4A3543F7 /* SKDesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F81CFB4D4188BF32A410126EA7BCE06 /* SKDesignableButton.swift */; };
+		5B93D247C2CAFA29DE99BA6A75996A9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		63EBC740CC19E4A704649C8CFE86F2DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		76365B1B14A268A8E9E4B79DF5A9842B /* Pods-SKDesignableButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B005DD759F011FB54ECC344AF8295E9 /* Pods-SKDesignableButton_Tests-dummy.m */; };
+		9130E35CE58235D258353ED90B1B04C6 /* SKDesignableButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9259F6B50E52D8A2ABFB895E6278BB27 /* SKDesignableButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98C772948124874AEBC38D18859C3AD6 /* Pods-SKDesignableButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FABE9731D667AE8E033705EB4B74CB2B /* Pods-SKDesignableButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCC38C34FCDA0D892AD671E0D313ED11 /* Pods-SKDesignableButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67923D2F3A2255D38CD441C0753FE66F /* Pods-SKDesignableButton_Example-dummy.m */; };
+		FA37A321753FA3EE3CAF685344189F8E /* SKDesignableButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 013C58528986C2590B8914FDBEF59C7D /* SKDesignableButton-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A8C9EC8C959A79411CA5A55A4B808E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C650A45427FBF60F290781921EA1DA0;
+			remoteInfo = SKDesignableButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		013C58528986C2590B8914FDBEF59C7D /* SKDesignableButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SKDesignableButton-dummy.m"; sourceTree = "<group>"; };
+		11832D0901F5632D684A60F28E36C582 /* Pods-SKDesignableButton_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKDesignableButton_Example-resources.sh"; sourceTree = "<group>"; };
+		1A146BEB4EE52FA3C2ABEA71158ED0C2 /* Pods-SKDesignableButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SKDesignableButton_Example.modulemap"; sourceTree = "<group>"; };
+		1F68350E9FF1724FF0C7B19F7217ECE8 /* Pods-SKDesignableButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKDesignableButton_Example-frameworks.sh"; sourceTree = "<group>"; };
+		29D1BB38947859D1E6D7C46B288A66C9 /* Pods-SKDesignableButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKDesignableButton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2DE875EE9AD797BA7A92FF0AD1799C49 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		390EB4DCC515B0E53BB47082AE70063E /* Pods-SKDesignableButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKDesignableButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		435B059F114F5654BEB248876CD5ACED /* SKDesignableButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SKDesignableButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4603CDA9F69F704418C0BA7F1858056B /* SKDesignableButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKDesignableButton-prefix.pch"; sourceTree = "<group>"; };
+		4962C1E50FCC8BA223A92254E3540F32 /* Pods_SKDesignableButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SKDesignableButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59F77BEB0F953732C6F2F32E752E7E47 /* Pods-SKDesignableButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKDesignableButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		67923D2F3A2255D38CD441C0753FE66F /* Pods-SKDesignableButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SKDesignableButton_Example-dummy.m"; sourceTree = "<group>"; };
+		6974D331DC1BB7F8C14CF235FD9297B5 /* Pods-SKDesignableButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SKDesignableButton_Tests.modulemap"; sourceTree = "<group>"; };
+		6B005DD759F011FB54ECC344AF8295E9 /* Pods-SKDesignableButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SKDesignableButton_Tests-dummy.m"; sourceTree = "<group>"; };
+		6FACF1B1CC80DF988E1817DE069667FF /* Pods-SKDesignableButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SKDesignableButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		91201325F0825012AC85858BB0964EF2 /* Pods-SKDesignableButton_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKDesignableButton_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		91A774AE4CE980FA933EA218E24D39BE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9259F6B50E52D8A2ABFB895E6278BB27 /* SKDesignableButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKDesignableButton-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F81CFB4D4188BF32A410126EA7BCE06 /* SKDesignableButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SKDesignableButton.swift; sourceTree = "<group>"; };
+		B7EF121FDFB0134100A26766C552D469 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0B0B39B03CC00A8E70CA737906106F9 /* Pods_SKDesignableButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SKDesignableButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1A856E17591FBFDA9AB719869FAA566 /* SKDesignableButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SKDesignableButton.modulemap; sourceTree = "<group>"; };
+		CB3C946E4F533E3957411C7950E608A7 /* Pods-SKDesignableButton_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKDesignableButton_Tests-resources.sh"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CC3846B12975DC4E648703A978609B8D /* Pods-SKDesignableButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKDesignableButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DA6CD16E0BD30CDA2BABE6CAF7B2C908 /* SKDesignableButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKDesignableButton.xcconfig; sourceTree = "<group>"; };
+		EA0687EC188FA70A527BC495EA06B4CE /* Pods-SKDesignableButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SKDesignableButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EEB49D8917D88E2959E517025D8C887B /* Pods-SKDesignableButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKDesignableButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F8167378387095BF2F2D9C099DD4497A /* Pods-SKDesignableButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SKDesignableButton_Tests-umbrella.h"; sourceTree = "<group>"; };
+		FABE9731D667AE8E033705EB4B74CB2B /* Pods-SKDesignableButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SKDesignableButton_Example-umbrella.h"; sourceTree = "<group>"; };
+		FCA5D9ECFF4D2990466FA09741DEF455 /* Pods-SKDesignableButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKDesignableButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23532AA42031D8B959EE2063C0B64405 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E26A7832D0701E9996BC6AA4B26D48D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCDE07E152AE69E67D30049BA18B61EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B93D247C2CAFA29DE99BA6A75996A9C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7125BB81511E0A72E439AE7011923C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63EBC740CC19E4A704649C8CFE86F2DB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		249CE7C785796E961C5E5EE91CE68B61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4962C1E50FCC8BA223A92254E3540F32 /* Pods_SKDesignableButton_Example.framework */,
+				C0B0B39B03CC00A8E70CA737906106F9 /* Pods_SKDesignableButton_Tests.framework */,
+				435B059F114F5654BEB248876CD5ACED /* SKDesignableButton.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C040F728C39A1B002EA4485AE5987E2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				91A774AE4CE980FA933EA218E24D39BE /* Info.plist */,
+				C1A856E17591FBFDA9AB719869FAA566 /* SKDesignableButton.modulemap */,
+				DA6CD16E0BD30CDA2BABE6CAF7B2C908 /* SKDesignableButton.xcconfig */,
+				013C58528986C2590B8914FDBEF59C7D /* SKDesignableButton-dummy.m */,
+				4603CDA9F69F704418C0BA7F1858056B /* SKDesignableButton-prefix.pch */,
+				9259F6B50E52D8A2ABFB895E6278BB27 /* SKDesignableButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SKDesignableButton";
+			sourceTree = "<group>";
+		};
+		3ADD38EEEE014AB1ACF820C15E4FFB52 /* Pods-SKDesignableButton_Example */ = {
+			isa = PBXGroup;
+			children = (
+				2DE875EE9AD797BA7A92FF0AD1799C49 /* Info.plist */,
+				1A146BEB4EE52FA3C2ABEA71158ED0C2 /* Pods-SKDesignableButton_Example.modulemap */,
+				EA0687EC188FA70A527BC495EA06B4CE /* Pods-SKDesignableButton_Example-acknowledgements.markdown */,
+				390EB4DCC515B0E53BB47082AE70063E /* Pods-SKDesignableButton_Example-acknowledgements.plist */,
+				67923D2F3A2255D38CD441C0753FE66F /* Pods-SKDesignableButton_Example-dummy.m */,
+				1F68350E9FF1724FF0C7B19F7217ECE8 /* Pods-SKDesignableButton_Example-frameworks.sh */,
+				11832D0901F5632D684A60F28E36C582 /* Pods-SKDesignableButton_Example-resources.sh */,
+				FABE9731D667AE8E033705EB4B74CB2B /* Pods-SKDesignableButton_Example-umbrella.h */,
+				EEB49D8917D88E2959E517025D8C887B /* Pods-SKDesignableButton_Example.debug.xcconfig */,
+				29D1BB38947859D1E6D7C46B288A66C9 /* Pods-SKDesignableButton_Example.release.xcconfig */,
+			);
+			name = "Pods-SKDesignableButton_Example";
+			path = "Target Support Files/Pods-SKDesignableButton_Example";
+			sourceTree = "<group>";
+		};
+		41C9647BE9CBC84B227BEC79B30DD13D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EBEECA0DBB7A07574709F8EF42D4B8D8 /* SKDesignableButton */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6AE2816D35B82FDE6912C2194D5F69BA /* SKDesignableButton */ = {
+			isa = PBXGroup;
+			children = (
+				8DED856A8CF6E1278B3CBB19856DC983 /* Classes */,
+			);
+			path = SKDesignableButton;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		76198D553E7DCB7B980DF360E60A1417 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3ADD38EEEE014AB1ACF820C15E4FFB52 /* Pods-SKDesignableButton_Example */,
+				E7C390887CE8D02B5683EF2457C51AD4 /* Pods-SKDesignableButton_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				41C9647BE9CBC84B227BEC79B30DD13D /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				249CE7C785796E961C5E5EE91CE68B61 /* Products */,
+				76198D553E7DCB7B980DF360E60A1417 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8DED856A8CF6E1278B3CBB19856DC983 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9F81CFB4D4188BF32A410126EA7BCE06 /* SKDesignableButton.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7C390887CE8D02B5683EF2457C51AD4 /* Pods-SKDesignableButton_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B7EF121FDFB0134100A26766C552D469 /* Info.plist */,
+				6974D331DC1BB7F8C14CF235FD9297B5 /* Pods-SKDesignableButton_Tests.modulemap */,
+				6FACF1B1CC80DF988E1817DE069667FF /* Pods-SKDesignableButton_Tests-acknowledgements.markdown */,
+				CC3846B12975DC4E648703A978609B8D /* Pods-SKDesignableButton_Tests-acknowledgements.plist */,
+				6B005DD759F011FB54ECC344AF8295E9 /* Pods-SKDesignableButton_Tests-dummy.m */,
+				91201325F0825012AC85858BB0964EF2 /* Pods-SKDesignableButton_Tests-frameworks.sh */,
+				CB3C946E4F533E3957411C7950E608A7 /* Pods-SKDesignableButton_Tests-resources.sh */,
+				F8167378387095BF2F2D9C099DD4497A /* Pods-SKDesignableButton_Tests-umbrella.h */,
+				FCA5D9ECFF4D2990466FA09741DEF455 /* Pods-SKDesignableButton_Tests.debug.xcconfig */,
+				59F77BEB0F953732C6F2F32E752E7E47 /* Pods-SKDesignableButton_Tests.release.xcconfig */,
+			);
+			name = "Pods-SKDesignableButton_Tests";
+			path = "Target Support Files/Pods-SKDesignableButton_Tests";
+			sourceTree = "<group>";
+		};
+		EBEECA0DBB7A07574709F8EF42D4B8D8 /* SKDesignableButton */ = {
+			isa = PBXGroup;
+			children = (
+				6AE2816D35B82FDE6912C2194D5F69BA /* SKDesignableButton */,
+				2C040F728C39A1B002EA4485AE5987E2 /* Support Files */,
+			);
+			name = SKDesignableButton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		42BD72D26F416103109799B6799A306D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9130E35CE58235D258353ED90B1B04C6 /* SKDesignableButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD91D324B3F78AB7D4975472B3F5899 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98C772948124874AEBC38D18859C3AD6 /* Pods-SKDesignableButton_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEDC06F43863EE4D70BDFD7340176B07 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33DDDB0EDC76E56697F338860C7E5494 /* Pods-SKDesignableButton_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1C650A45427FBF60F290781921EA1DA0 /* SKDesignableButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABF45369CCBF7BF9777DF47910728F5C /* Build configuration list for PBXNativeTarget "SKDesignableButton" */;
+			buildPhases = (
+				F830E209219D203B7B995E4E0192B26D /* Sources */,
+				F7125BB81511E0A72E439AE7011923C5 /* Frameworks */,
+				42BD72D26F416103109799B6799A306D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKDesignableButton;
+			productName = SKDesignableButton;
+			productReference = 435B059F114F5654BEB248876CD5ACED /* SKDesignableButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6E7BED7D45B43BFF671147F81E2E6ACC /* Pods-SKDesignableButton_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE74AFAE487DD4EA6DECBCEEC3428E67 /* Build configuration list for PBXNativeTarget "Pods-SKDesignableButton_Tests" */;
+			buildPhases = (
+				F7C213574DA12334ABA8672F40F7680B /* Sources */,
+				DCDE07E152AE69E67D30049BA18B61EE /* Frameworks */,
+				FEDC06F43863EE4D70BDFD7340176B07 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SKDesignableButton_Tests";
+			productName = "Pods-SKDesignableButton_Tests";
+			productReference = C0B0B39B03CC00A8E70CA737906106F9 /* Pods_SKDesignableButton_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8667AB3D4EB9AEA4B3EB06D37AB4B604 /* Pods-SKDesignableButton_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 340ED8FDC59421C39FF6BB9DE3576D02 /* Build configuration list for PBXNativeTarget "Pods-SKDesignableButton_Example" */;
+			buildPhases = (
+				C6CEBC8AAA19A221A6DECAC5A1AC3B83 /* Sources */,
+				23532AA42031D8B959EE2063C0B64405 /* Frameworks */,
+				ADD91D324B3F78AB7D4975472B3F5899 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83E26C89757C3D5E817522737285F2E3 /* PBXTargetDependency */,
+			);
+			name = "Pods-SKDesignableButton_Example";
+			productName = "Pods-SKDesignableButton_Example";
+			productReference = 4962C1E50FCC8BA223A92254E3540F32 /* Pods_SKDesignableButton_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 249CE7C785796E961C5E5EE91CE68B61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8667AB3D4EB9AEA4B3EB06D37AB4B604 /* Pods-SKDesignableButton_Example */,
+				6E7BED7D45B43BFF671147F81E2E6ACC /* Pods-SKDesignableButton_Tests */,
+				1C650A45427FBF60F290781921EA1DA0 /* SKDesignableButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6CEBC8AAA19A221A6DECAC5A1AC3B83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC38C34FCDA0D892AD671E0D313ED11 /* Pods-SKDesignableButton_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7C213574DA12334ABA8672F40F7680B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76365B1B14A268A8E9E4B79DF5A9842B /* Pods-SKDesignableButton_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F830E209219D203B7B995E4E0192B26D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4943BF9BA86C05F4840361DD4A3543F7 /* SKDesignableButton.swift in Sources */,
+				FA37A321753FA3EE3CAF685344189F8E /* SKDesignableButton-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83E26C89757C3D5E817522737285F2E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SKDesignableButton;
+			target = 1C650A45427FBF60F290781921EA1DA0 /* SKDesignableButton */;
+			targetProxy = 3A8C9EC8C959A79411CA5A55A4B808E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0356837E78C95947EDEE5D571D9E2FD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEB49D8917D88E2959E517025D8C887B /* Pods-SKDesignableButton_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SKDesignableButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SKDesignableButton_Example/Pods-SKDesignableButton_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SKDesignableButton_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3AA206A9621B0A4728A89CF33C98F5F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA6CD16E0BD30CDA2BABE6CAF7B2C908 /* SKDesignableButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SKDesignableButton/SKDesignableButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SKDesignableButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SKDesignableButton/SKDesignableButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SKDesignableButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6F4FF3CABB14BAF9F2AE0A6364A95992 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29D1BB38947859D1E6D7C46B288A66C9 /* Pods-SKDesignableButton_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SKDesignableButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SKDesignableButton_Example/Pods-SKDesignableButton_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SKDesignableButton_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		81C48307138426B2E2F2729D7A353FBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59F77BEB0F953732C6F2F32E752E7E47 /* Pods-SKDesignableButton_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SKDesignableButton_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SKDesignableButton_Tests/Pods-SKDesignableButton_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SKDesignableButton_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FC1E14CC797E31B156992F319EC0259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCA5D9ECFF4D2990466FA09741DEF455 /* Pods-SKDesignableButton_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SKDesignableButton_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SKDesignableButton_Tests/Pods-SKDesignableButton_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SKDesignableButton_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AA5F339F8B1A8CA44BE14DCEE6A5BF88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA6CD16E0BD30CDA2BABE6CAF7B2C908 /* SKDesignableButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SKDesignableButton/SKDesignableButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SKDesignableButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SKDesignableButton/SKDesignableButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SKDesignableButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		340ED8FDC59421C39FF6BB9DE3576D02 /* Build configuration list for PBXNativeTarget "Pods-SKDesignableButton_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0356837E78C95947EDEE5D571D9E2FD5 /* Debug */,
+				6F4FF3CABB14BAF9F2AE0A6364A95992 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABF45369CCBF7BF9777DF47910728F5C /* Build configuration list for PBXNativeTarget "SKDesignableButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA5F339F8B1A8CA44BE14DCEE6A5BF88 /* Debug */,
+				3AA206A9621B0A4728A89CF33C98F5F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE74AFAE487DD4EA6DECBCEEC3428E67 /* Build configuration list for PBXNativeTarget "Pods-SKDesignableButton_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FC1E14CC797E31B156992F319EC0259 /* Debug */,
+				81C48307138426B2E2F2729D7A353FBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
