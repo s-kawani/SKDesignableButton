@@ -1,9 +1,9 @@
 {
   "name": "SKDesignableButton",
   "version": "0.1.0",
-  "summary": "A short description of SKDesignableButton.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/shin-kawani/SKDesignableButton",
+  "summary": "Extremely simple designable UIButton",
+  "description": "This is extremely simple designable UIButton.",
+  "homepage": "https://github.com/s-kawani/SKDesignableButton",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "shin-kawani": "s.kawani@gmail.com"
   },
   "source": {
-    "git": "https://github.com/shin-kawani/SKDesignableButton.git",
+    "git": "https://github.com/s-kawani/SKDesignableButton.git",
     "tag": "0.1.0"
   },
   "platforms": {

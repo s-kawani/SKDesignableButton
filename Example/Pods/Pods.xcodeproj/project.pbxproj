@@ -7,69 +7,157 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1E26A7832D0701E9996BC6AA4B26D48D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		02DA0B7DDADC2A3860AFFE5052FEC99F /* DynamicButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 693D9B546C12A832A476A0DF28294581 /* DynamicButton-dummy.m */; };
+		085001B0C4983085045E8DCD71FFCE6C /* DynamicButtonStyleArrowDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5657750FDA765D22D32726153EAEAF9 /* DynamicButtonStyleArrowDown.swift */; };
+		0A472E63CF2A259EDDC473BE03174CBD /* DynamicButtonStyleVerticalLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D6CB5E6A53F9BE080D638CEE3212F5 /* DynamicButtonStyleVerticalLine.swift */; };
+		1469C8F5CBE1840B72789D3C0E217F1C /* DynamicButtonStyleRewind.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89F1F359DD0BADE735F58AFD4AAAF6B /* DynamicButtonStyleRewind.swift */; };
+		1C403B5EB32D705543C7CCDEE4B4EC59 /* DynamicButtonStyleDownload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CA36B49E94C5646EC1A7BA2A9EDF42 /* DynamicButtonStyleDownload.swift */; };
+		1E8042F4596CC7206AA529B8DC271CD0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		276F47CC7EC67090E110DBDE7156AA72 /* DynamicButtonStyleCaretUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEBCFB2D1750A5EC8CE222972C51CA3 /* DynamicButtonStyleCaretUp.swift */; };
+		2C3E7E033147B4377D77BCD0A36D5F67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		2EA766041C67206F34E47DFC29A48281 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		2F632A4D1ADD5136B02A32C056154E95 /* DynamicButtonStylePause.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D93C677D3BDA750924A9987E66D28B /* DynamicButtonStylePause.swift */; };
 		33DDDB0EDC76E56697F338860C7E5494 /* Pods-SKDesignableButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8167378387095BF2F2D9C099DD4497A /* Pods-SKDesignableButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4943BF9BA86C05F4840361DD4A3543F7 /* SKDesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F81CFB4D4188BF32A410126EA7BCE06 /* SKDesignableButton.swift */; };
-		5B93D247C2CAFA29DE99BA6A75996A9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		63EBC740CC19E4A704649C8CFE86F2DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		3C23CEF4673BC25D4182C31836C7779B /* DynamicButtonStyleStop.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9713114B3D6ABED6B86E91FF4806B6 /* DynamicButtonStyleStop.swift */; };
+		4313B742D8BF3FBF8E51AA05295534C4 /* DynamicButtonStyleHamburger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3027AC52E0E228790CB0AE45BAAD686E /* DynamicButtonStyleHamburger.swift */; };
+		44D1A332188F6FC02524CD82C3877FC8 /* Pods-SKDesignableButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FABE9731D667AE8E033705EB4B74CB2B /* Pods-SKDesignableButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		489F5C27A87C91633CED4755868D9BFE /* SKDesignableButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 013C58528986C2590B8914FDBEF59C7D /* SKDesignableButton-dummy.m */; };
+		4AAA32AE79331482048A2BF5164E237D /* DynamicButtonStyleCaretRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353CA689684B696D5DEC29970E0C174F /* DynamicButtonStyleCaretRight.swift */; };
+		55A10D35CF6C078F81DF83E8793CCB6B /* SKDesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1903F87B605379727E578E94E1FAEEFE /* SKDesignableButton.swift */; };
+		5B93D247C2CAFA29DE99BA6A75996A9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		6F16EA77E2BECC0DF9C36696191405EA /* DynamicButtonStyleClose.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF762714EFC592C5C9693DBE82460F26 /* DynamicButtonStyleClose.swift */; };
+		7280A91C6C7508B6D82C755F40772C17 /* DynamicButtonStyleArrowLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53A8EFE2F5C1A9CC3783D8ADB35055E /* DynamicButtonStyleArrowLeft.swift */; };
 		76365B1B14A268A8E9E4B79DF5A9842B /* Pods-SKDesignableButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B005DD759F011FB54ECC344AF8295E9 /* Pods-SKDesignableButton_Tests-dummy.m */; };
-		9130E35CE58235D258353ED90B1B04C6 /* SKDesignableButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9259F6B50E52D8A2ABFB895E6278BB27 /* SKDesignableButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		98C772948124874AEBC38D18859C3AD6 /* Pods-SKDesignableButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FABE9731D667AE8E033705EB4B74CB2B /* Pods-SKDesignableButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CCC38C34FCDA0D892AD671E0D313ED11 /* Pods-SKDesignableButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67923D2F3A2255D38CD441C0753FE66F /* Pods-SKDesignableButton_Example-dummy.m */; };
-		FA37A321753FA3EE3CAF685344189F8E /* SKDesignableButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 013C58528986C2590B8914FDBEF59C7D /* SKDesignableButton-dummy.m */; };
+		7E19111424E3615F414C9F118A8F16C7 /* SKDesignableButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9259F6B50E52D8A2ABFB895E6278BB27 /* SKDesignableButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85DB37167784FCC49672C51155C5A321 /* DynamicButtonStyleCirclePlus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167B2F90B1D58E265D785F309C850E75 /* DynamicButtonStyleCirclePlus.swift */; };
+		8A2B52FCC4F5C813B70A94BFAE7D24D5 /* DynamicButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B11577E627BE56B96699C192EB48DA /* DynamicButton.swift */; };
+		8BDA7C4F0B42C3635EB49DB292AD7515 /* DynamicButtonStyleHorizontalMoreOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C89A7A8BC25E517D639AFC8817AF4D1 /* DynamicButtonStyleHorizontalMoreOptions.swift */; };
+		9588AA025059E33574CAC925D7594813 /* DynamicButtonStyleReload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327C406A49176D61D92ADD9F103B036C /* DynamicButtonStyleReload.swift */; };
+		95D78044963340B7CE31E82F96DD9C99 /* DynamicButtonStyleCaretDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16169DE1585115901A9E729723A51656 /* DynamicButtonStyleCaretDown.swift */; };
+		999DD8BEF7680C24E947FC3DA9D83B53 /* DynamicButtonStylePlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01E8CDE4F1F4537A0FFD6EB1CF161DA /* DynamicButtonStylePlay.swift */; };
+		9A72870177D8CA7841AF6F9BB8C54E5F /* DynamicButtonStyleNone.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81BBA6FF7E69901480A4CEC9325D7F0 /* DynamicButtonStyleNone.swift */; };
+		9AC0FAB323E6EFA9E4F1C9F4E9A07A28 /* PathHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F8BDE8DBFD23077F96B6A903EED9DB /* PathHelper.swift */; };
+		9B46F6A57B8E17B8B07E1944C4D01946 /* DynamicButtonStylePlus.swift in Sources */ = {isa = PBXBuildFile; fileRef = C642556A08B74DF5F67FF2F1E44D49C8 /* DynamicButtonStylePlus.swift */; };
+		AD102D0B847AC67C973F7A8D59B82DE0 /* DynamicButtonStyleFastForward.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BC3ECD33100269520F017327CB5029 /* DynamicButtonStyleFastForward.swift */; };
+		B51FEC4EBB8A679184DCA38ED5FD2301 /* DynamicButtonStyleCaretLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29CB5CF381AF68FC85CECBEBCF53789 /* DynamicButtonStyleCaretLeft.swift */; };
+		BC90D58697892020E2F2F2D69DB9761E /* DynamicButtonStyleArrowUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F967A718006F5F413E24BF8479EBDE /* DynamicButtonStyleArrowUp.swift */; };
+		C1F86D58603A88EF0D11BE51148BBE96 /* DynamicButtonStyleVerticalMoreOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCE1C1CE6E689674C43ECC4ACF38B6D /* DynamicButtonStyleVerticalMoreOptions.swift */; };
+		C78A65154E32610D313207E258256D15 /* DynamicButtonStyleCircleClose.swift in Sources */ = {isa = PBXBuildFile; fileRef = A931E4C0090902C4D26A6856FB93BA62 /* DynamicButtonStyleCircleClose.swift */; };
+		D8D6C0DDA65FC12591C67851F7585F95 /* DynamicButtonStyleCheckMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F085B8A3E5E1AFA1A783EC35E89C90A /* DynamicButtonStyleCheckMark.swift */; };
+		DE5A68220135A9592056B55DF474E2DC /* DynamicButtonStyleHorizontalLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AFC8AAE4D2DDFD650A572335066198 /* DynamicButtonStyleHorizontalLine.swift */; };
+		E51676DF4BB97DFBBFF5E685BA131B9B /* DynamicButtonStyleDot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215ADA789AE7A32319D39A4A9B8755EF /* DynamicButtonStyleDot.swift */; };
+		E9EF40D4204A4884FE38020080FF2D51 /* DynamicButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7534915C46BACBD4216817B092A09DB5 /* DynamicButtonStyle.swift */; };
+		F3726F74C43DB3BE4A51AD3F480D29DC /* DynamicButtonStyleArrowRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AA38483C9757A7D7CA01D7437E9863 /* DynamicButtonStyleArrowRight.swift */; };
+		F837F08BCB91E0ABA7D24E08FC6C8B61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		F8C9E662CB7C3A420E706A8D0B3CCEE5 /* Pods-SKDesignableButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67923D2F3A2255D38CD441C0753FE66F /* Pods-SKDesignableButton_Example-dummy.m */; };
+		FD9DA3471F533E8125BE9DF93E9225D2 /* DynamicButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE0A11572CC359CD33354F1A70AF77F6 /* DynamicButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3A8C9EC8C959A79411CA5A55A4B808E7 /* PBXContainerItemProxy */ = {
+		594CE18A8ECA0CFAD1193ED33F7D7022 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1C650A45427FBF60F290781921EA1DA0;
+			remoteGlobalIDString = 23CE1C79EC6EBE50F427D9689806D63E;
 			remoteInfo = SKDesignableButton;
+		};
+		701A1E00E519E34CB069A5475FAAB917 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAE24ACA00B7B35A5EB9168B684E5317;
+			remoteInfo = DynamicButton;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		013C58528986C2590B8914FDBEF59C7D /* SKDesignableButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SKDesignableButton-dummy.m"; sourceTree = "<group>"; };
 		11832D0901F5632D684A60F28E36C582 /* Pods-SKDesignableButton_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKDesignableButton_Example-resources.sh"; sourceTree = "<group>"; };
-		1A146BEB4EE52FA3C2ABEA71158ED0C2 /* Pods-SKDesignableButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SKDesignableButton_Example.modulemap"; sourceTree = "<group>"; };
+		16169DE1585115901A9E729723A51656 /* DynamicButtonStyleCaretDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleCaretDown.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleCaretDown.swift; sourceTree = "<group>"; };
+		167B2F90B1D58E265D785F309C850E75 /* DynamicButtonStyleCirclePlus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleCirclePlus.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleCirclePlus.swift; sourceTree = "<group>"; };
+		1903F87B605379727E578E94E1FAEEFE /* SKDesignableButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SKDesignableButton.swift; sourceTree = "<group>"; };
+		1A146BEB4EE52FA3C2ABEA71158ED0C2 /* Pods-SKDesignableButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SKDesignableButton_Example.modulemap"; sourceTree = "<group>"; };
+		1F085B8A3E5E1AFA1A783EC35E89C90A /* DynamicButtonStyleCheckMark.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleCheckMark.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleCheckMark.swift; sourceTree = "<group>"; };
 		1F68350E9FF1724FF0C7B19F7217ECE8 /* Pods-SKDesignableButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKDesignableButton_Example-frameworks.sh"; sourceTree = "<group>"; };
+		215ADA789AE7A32319D39A4A9B8755EF /* DynamicButtonStyleDot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleDot.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleDot.swift; sourceTree = "<group>"; };
+		22AFC8AAE4D2DDFD650A572335066198 /* DynamicButtonStyleHorizontalLine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleHorizontalLine.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleHorizontalLine.swift; sourceTree = "<group>"; };
+		232A814F8F0C1D22E5896681CE8BD0F5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23F8BDE8DBFD23077F96B6A903EED9DB /* PathHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PathHelper.swift; path = Sources/PathHelper.swift; sourceTree = "<group>"; };
 		29D1BB38947859D1E6D7C46B288A66C9 /* Pods-SKDesignableButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKDesignableButton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2C89A7A8BC25E517D639AFC8817AF4D1 /* DynamicButtonStyleHorizontalMoreOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleHorizontalMoreOptions.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleHorizontalMoreOptions.swift; sourceTree = "<group>"; };
 		2DE875EE9AD797BA7A92FF0AD1799C49 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3027AC52E0E228790CB0AE45BAAD686E /* DynamicButtonStyleHamburger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleHamburger.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleHamburger.swift; sourceTree = "<group>"; };
+		30B86F165FA3F5B512394D873FDF7F09 /* Pods_SKDesignableButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SKDesignableButton_Tests.framework; path = "Pods-SKDesignableButton_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		327C406A49176D61D92ADD9F103B036C /* DynamicButtonStyleReload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleReload.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleReload.swift; sourceTree = "<group>"; };
+		353CA689684B696D5DEC29970E0C174F /* DynamicButtonStyleCaretRight.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleCaretRight.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleCaretRight.swift; sourceTree = "<group>"; };
 		390EB4DCC515B0E53BB47082AE70063E /* Pods-SKDesignableButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKDesignableButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		435B059F114F5654BEB248876CD5ACED /* SKDesignableButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SKDesignableButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4357BDBB435B4597FC9936B6EF381E9F /* DynamicButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DynamicButton.framework; path = DynamicButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4603CDA9F69F704418C0BA7F1858056B /* SKDesignableButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKDesignableButton-prefix.pch"; sourceTree = "<group>"; };
-		4962C1E50FCC8BA223A92254E3540F32 /* Pods_SKDesignableButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SKDesignableButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56B11577E627BE56B96699C192EB48DA /* DynamicButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButton.swift; path = Sources/DynamicButton.swift; sourceTree = "<group>"; };
+		58F967A718006F5F413E24BF8479EBDE /* DynamicButtonStyleArrowUp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleArrowUp.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleArrowUp.swift; sourceTree = "<group>"; };
 		59F77BEB0F953732C6F2F32E752E7E47 /* Pods-SKDesignableButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKDesignableButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5CCE1C1CE6E689674C43ECC4ACF38B6D /* DynamicButtonStyleVerticalMoreOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleVerticalMoreOptions.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleVerticalMoreOptions.swift; sourceTree = "<group>"; };
+		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		64AA38483C9757A7D7CA01D7437E9863 /* DynamicButtonStyleArrowRight.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleArrowRight.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleArrowRight.swift; sourceTree = "<group>"; };
+		64BC3ECD33100269520F017327CB5029 /* DynamicButtonStyleFastForward.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleFastForward.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleFastForward.swift; sourceTree = "<group>"; };
 		67923D2F3A2255D38CD441C0753FE66F /* Pods-SKDesignableButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SKDesignableButton_Example-dummy.m"; sourceTree = "<group>"; };
-		6974D331DC1BB7F8C14CF235FD9297B5 /* Pods-SKDesignableButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SKDesignableButton_Tests.modulemap"; sourceTree = "<group>"; };
+		693D9B546C12A832A476A0DF28294581 /* DynamicButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DynamicButton-dummy.m"; sourceTree = "<group>"; };
+		6974D331DC1BB7F8C14CF235FD9297B5 /* Pods-SKDesignableButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SKDesignableButton_Tests.modulemap"; sourceTree = "<group>"; };
 		6B005DD759F011FB54ECC344AF8295E9 /* Pods-SKDesignableButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SKDesignableButton_Tests-dummy.m"; sourceTree = "<group>"; };
 		6FACF1B1CC80DF988E1817DE069667FF /* Pods-SKDesignableButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SKDesignableButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7534915C46BACBD4216817B092A09DB5 /* DynamicButtonStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyle.swift; path = Sources/DynamicButtonStyle.swift; sourceTree = "<group>"; };
+		76D93C677D3BDA750924A9987E66D28B /* DynamicButtonStylePause.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStylePause.swift; path = Sources/DynamicButtonStyles/DynamicButtonStylePause.swift; sourceTree = "<group>"; };
+		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8F647335212111B603D76EC9A3A512F9 /* Pods_SKDesignableButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SKDesignableButton_Example.framework; path = "Pods-SKDesignableButton_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91201325F0825012AC85858BB0964EF2 /* Pods-SKDesignableButton_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKDesignableButton_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		91A774AE4CE980FA933EA218E24D39BE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9259F6B50E52D8A2ABFB895E6278BB27 /* SKDesignableButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKDesignableButton-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F81CFB4D4188BF32A410126EA7BCE06 /* SKDesignableButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SKDesignableButton.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95CA36B49E94C5646EC1A7BA2A9EDF42 /* DynamicButtonStyleDownload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleDownload.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleDownload.swift; sourceTree = "<group>"; };
+		A820F1696BC3D0F134944B4C64AD2D8D /* SKDesignableButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SKDesignableButton.framework; path = SKDesignableButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A89F1F359DD0BADE735F58AFD4AAAF6B /* DynamicButtonStyleRewind.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleRewind.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleRewind.swift; sourceTree = "<group>"; };
+		A931E4C0090902C4D26A6856FB93BA62 /* DynamicButtonStyleCircleClose.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleCircleClose.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleCircleClose.swift; sourceTree = "<group>"; };
+		B3F8D41B47CF2153D38E491EB8EDC1A0 /* DynamicButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DynamicButton-prefix.pch"; sourceTree = "<group>"; };
+		B5657750FDA765D22D32726153EAEAF9 /* DynamicButtonStyleArrowDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleArrowDown.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleArrowDown.swift; sourceTree = "<group>"; };
 		B7EF121FDFB0134100A26766C552D469 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C0B0B39B03CC00A8E70CA737906106F9 /* Pods_SKDesignableButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SKDesignableButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1A856E17591FBFDA9AB719869FAA566 /* SKDesignableButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SKDesignableButton.modulemap; sourceTree = "<group>"; };
+		B81BBA6FF7E69901480A4CEC9325D7F0 /* DynamicButtonStyleNone.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleNone.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleNone.swift; sourceTree = "<group>"; };
+		BDEBCFB2D1750A5EC8CE222972C51CA3 /* DynamicButtonStyleCaretUp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleCaretUp.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleCaretUp.swift; sourceTree = "<group>"; };
+		C1A856E17591FBFDA9AB719869FAA566 /* SKDesignableButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SKDesignableButton.modulemap; sourceTree = "<group>"; };
+		C642556A08B74DF5F67FF2F1E44D49C8 /* DynamicButtonStylePlus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStylePlus.swift; path = Sources/DynamicButtonStyles/DynamicButtonStylePlus.swift; sourceTree = "<group>"; };
 		CB3C946E4F533E3957411C7950E608A7 /* Pods-SKDesignableButton_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKDesignableButton_Tests-resources.sh"; sourceTree = "<group>"; };
-		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CC3846B12975DC4E648703A978609B8D /* Pods-SKDesignableButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKDesignableButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CF9713114B3D6ABED6B86E91FF4806B6 /* DynamicButtonStyleStop.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleStop.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleStop.swift; sourceTree = "<group>"; };
+		D53A8EFE2F5C1A9CC3783D8ADB35055E /* DynamicButtonStyleArrowLeft.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleArrowLeft.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleArrowLeft.swift; sourceTree = "<group>"; };
 		DA6CD16E0BD30CDA2BABE6CAF7B2C908 /* SKDesignableButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKDesignableButton.xcconfig; sourceTree = "<group>"; };
+		DF762714EFC592C5C9693DBE82460F26 /* DynamicButtonStyleClose.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleClose.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleClose.swift; sourceTree = "<group>"; };
+		E01E8CDE4F1F4537A0FFD6EB1CF161DA /* DynamicButtonStylePlay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStylePlay.swift; path = Sources/DynamicButtonStyles/DynamicButtonStylePlay.swift; sourceTree = "<group>"; };
+		E29CB5CF381AF68FC85CECBEBCF53789 /* DynamicButtonStyleCaretLeft.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleCaretLeft.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleCaretLeft.swift; sourceTree = "<group>"; };
+		E99AA78A35865AD399A5D8940030D693 /* DynamicButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DynamicButton.modulemap; sourceTree = "<group>"; };
 		EA0687EC188FA70A527BC495EA06B4CE /* Pods-SKDesignableButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SKDesignableButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EEB49D8917D88E2959E517025D8C887B /* Pods-SKDesignableButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKDesignableButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F6D6CB5E6A53F9BE080D638CEE3212F5 /* DynamicButtonStyleVerticalLine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleVerticalLine.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleVerticalLine.swift; sourceTree = "<group>"; };
 		F8167378387095BF2F2D9C099DD4497A /* Pods-SKDesignableButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SKDesignableButton_Tests-umbrella.h"; sourceTree = "<group>"; };
 		FABE9731D667AE8E033705EB4B74CB2B /* Pods-SKDesignableButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SKDesignableButton_Example-umbrella.h"; sourceTree = "<group>"; };
 		FCA5D9ECFF4D2990466FA09741DEF455 /* Pods-SKDesignableButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKDesignableButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD75827EEEAAE5298C355FEE30814B07 /* DynamicButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DynamicButton.xcconfig; sourceTree = "<group>"; };
+		FE0A11572CC359CD33354F1A70AF77F6 /* DynamicButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DynamicButton-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		23532AA42031D8B959EE2063C0B64405 /* Frameworks */ = {
+		5594EEB9C90FBBFF62D7CE5B9A397331 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E26A7832D0701E9996BC6AA4B26D48D /* Foundation.framework in Frameworks */,
+				F837F08BCB91E0ABA7D24E08FC6C8B61 /* Foundation.framework in Frameworks */,
+				1E8042F4596CC7206AA529B8DC271CD0 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B87DF591DCEEE3F61A62395BA1E5ED52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C3E7E033147B4377D77BCD0A36D5F67 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,27 +169,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F7125BB81511E0A72E439AE7011923C5 /* Frameworks */ = {
+		ED67965DDA24B5FBF0BB69CFC5C74DD3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63EBC740CC19E4A704649C8CFE86F2DB /* Foundation.framework in Frameworks */,
+				2EA766041C67206F34E47DFC29A48281 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		249CE7C785796E961C5E5EE91CE68B61 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				4962C1E50FCC8BA223A92254E3540F32 /* Pods_SKDesignableButton_Example.framework */,
-				C0B0B39B03CC00A8E70CA737906106F9 /* Pods_SKDesignableButton_Tests.framework */,
-				435B059F114F5654BEB248876CD5ACED /* SKDesignableButton.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		2C040F728C39A1B002EA4485AE5987E2 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +192,45 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/SKDesignableButton";
+			sourceTree = "<group>";
+		};
+		361DF7B6EC8C3A32725201687D1FF043 /* DynamicButton */ = {
+			isa = PBXGroup;
+			children = (
+				56B11577E627BE56B96699C192EB48DA /* DynamicButton.swift */,
+				7534915C46BACBD4216817B092A09DB5 /* DynamicButtonStyle.swift */,
+				B5657750FDA765D22D32726153EAEAF9 /* DynamicButtonStyleArrowDown.swift */,
+				D53A8EFE2F5C1A9CC3783D8ADB35055E /* DynamicButtonStyleArrowLeft.swift */,
+				64AA38483C9757A7D7CA01D7437E9863 /* DynamicButtonStyleArrowRight.swift */,
+				58F967A718006F5F413E24BF8479EBDE /* DynamicButtonStyleArrowUp.swift */,
+				16169DE1585115901A9E729723A51656 /* DynamicButtonStyleCaretDown.swift */,
+				E29CB5CF381AF68FC85CECBEBCF53789 /* DynamicButtonStyleCaretLeft.swift */,
+				353CA689684B696D5DEC29970E0C174F /* DynamicButtonStyleCaretRight.swift */,
+				BDEBCFB2D1750A5EC8CE222972C51CA3 /* DynamicButtonStyleCaretUp.swift */,
+				1F085B8A3E5E1AFA1A783EC35E89C90A /* DynamicButtonStyleCheckMark.swift */,
+				A931E4C0090902C4D26A6856FB93BA62 /* DynamicButtonStyleCircleClose.swift */,
+				167B2F90B1D58E265D785F309C850E75 /* DynamicButtonStyleCirclePlus.swift */,
+				DF762714EFC592C5C9693DBE82460F26 /* DynamicButtonStyleClose.swift */,
+				215ADA789AE7A32319D39A4A9B8755EF /* DynamicButtonStyleDot.swift */,
+				95CA36B49E94C5646EC1A7BA2A9EDF42 /* DynamicButtonStyleDownload.swift */,
+				64BC3ECD33100269520F017327CB5029 /* DynamicButtonStyleFastForward.swift */,
+				3027AC52E0E228790CB0AE45BAAD686E /* DynamicButtonStyleHamburger.swift */,
+				22AFC8AAE4D2DDFD650A572335066198 /* DynamicButtonStyleHorizontalLine.swift */,
+				2C89A7A8BC25E517D639AFC8817AF4D1 /* DynamicButtonStyleHorizontalMoreOptions.swift */,
+				B81BBA6FF7E69901480A4CEC9325D7F0 /* DynamicButtonStyleNone.swift */,
+				76D93C677D3BDA750924A9987E66D28B /* DynamicButtonStylePause.swift */,
+				E01E8CDE4F1F4537A0FFD6EB1CF161DA /* DynamicButtonStylePlay.swift */,
+				C642556A08B74DF5F67FF2F1E44D49C8 /* DynamicButtonStylePlus.swift */,
+				327C406A49176D61D92ADD9F103B036C /* DynamicButtonStyleReload.swift */,
+				A89F1F359DD0BADE735F58AFD4AAAF6B /* DynamicButtonStyleRewind.swift */,
+				CF9713114B3D6ABED6B86E91FF4806B6 /* DynamicButtonStyleStop.swift */,
+				F6D6CB5E6A53F9BE080D638CEE3212F5 /* DynamicButtonStyleVerticalLine.swift */,
+				5CCE1C1CE6E689674C43ECC4ACF38B6D /* DynamicButtonStyleVerticalMoreOptions.swift */,
+				23F8BDE8DBFD23077F96B6A903EED9DB /* PathHelper.swift */,
+				68A83F274A5BB538B071C6C0C35BC11F /* Support Files */,
+			);
+			name = DynamicButton;
+			path = DynamicButton;
 			sourceTree = "<group>";
 		};
 		3ADD38EEEE014AB1ACF820C15E4FFB52 /* Pods-SKDesignableButton_Example */ = {
@@ -134,6 +251,14 @@
 			path = "Target Support Files/Pods-SKDesignableButton_Example";
 			sourceTree = "<group>";
 		};
+		3CED9D135FC7DCAE1CFD717CE13877AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				361DF7B6EC8C3A32725201687D1FF043 /* DynamicButton */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		41C9647BE9CBC84B227BEC79B30DD13D /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -142,20 +267,46 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D48D59CF54028A18F8ADAB0FA00E44C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4357BDBB435B4597FC9936B6EF381E9F /* DynamicButton.framework */,
+				8F647335212111B603D76EC9A3A512F9 /* Pods_SKDesignableButton_Example.framework */,
+				30B86F165FA3F5B512394D873FDF7F09 /* Pods_SKDesignableButton_Tests.framework */,
+				A820F1696BC3D0F134944B4C64AD2D8D /* SKDesignableButton.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68A83F274A5BB538B071C6C0C35BC11F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E99AA78A35865AD399A5D8940030D693 /* DynamicButton.modulemap */,
+				FD75827EEEAAE5298C355FEE30814B07 /* DynamicButton.xcconfig */,
+				693D9B546C12A832A476A0DF28294581 /* DynamicButton-dummy.m */,
+				B3F8D41B47CF2153D38E491EB8EDC1A0 /* DynamicButton-prefix.pch */,
+				FE0A11572CC359CD33354F1A70AF77F6 /* DynamicButton-umbrella.h */,
+				232A814F8F0C1D22E5896681CE8BD0F5 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DynamicButton";
+			sourceTree = "<group>";
+		};
 		6AE2816D35B82FDE6912C2194D5F69BA /* SKDesignableButton */ = {
 			isa = PBXGroup;
 			children = (
-				8DED856A8CF6E1278B3CBB19856DC983 /* Classes */,
+				9352B797A80FE94A55C15F33E6B0BF48 /* Classes */,
 			);
+			name = SKDesignableButton;
 			path = SKDesignableButton;
-			sourceTree = "<group>";
-		};
-		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		76198D553E7DCB7B980DF360E60A1417 /* Targets Support Files */ = {
@@ -172,26 +323,29 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				41C9647BE9CBC84B227BEC79B30DD13D /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				249CE7C785796E961C5E5EE91CE68B61 /* Products */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				3CED9D135FC7DCAE1CFD717CE13877AB /* Pods */,
+				5D48D59CF54028A18F8ADAB0FA00E44C /* Products */,
 				76198D553E7DCB7B980DF360E60A1417 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8DED856A8CF6E1278B3CBB19856DC983 /* Classes */ = {
+		9352B797A80FE94A55C15F33E6B0BF48 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				9F81CFB4D4188BF32A410126EA7BCE06 /* SKDesignableButton.swift */,
+				1903F87B605379727E578E94E1FAEEFE /* SKDesignableButton.swift */,
 			);
+			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
+				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
 			);
-			name = Frameworks;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		E7C390887CE8D02B5683EF2457C51AD4 /* Pods-SKDesignableButton_Tests */ = {
@@ -225,19 +379,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		42BD72D26F416103109799B6799A306D /* Headers */ = {
+		04683416ADB064411BB560125080B38C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9130E35CE58235D258353ED90B1B04C6 /* SKDesignableButton-umbrella.h in Headers */,
+				44D1A332188F6FC02524CD82C3877FC8 /* Pods-SKDesignableButton_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ADD91D324B3F78AB7D4975472B3F5899 /* Headers */ = {
+		2ED7D410B80EC570A087443D943BCF60 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98C772948124874AEBC38D18859C3AD6 /* Pods-SKDesignableButton_Example-umbrella.h in Headers */,
+				FD9DA3471F533E8125BE9DF93E9225D2 /* DynamicButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73FB3990607914C8438201E55475EA51 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E19111424E3615F414C9F118A8F16C7 /* SKDesignableButton-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,13 +414,13 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1C650A45427FBF60F290781921EA1DA0 /* SKDesignableButton */ = {
+		23CE1C79EC6EBE50F427D9689806D63E /* SKDesignableButton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ABF45369CCBF7BF9777DF47910728F5C /* Build configuration list for PBXNativeTarget "SKDesignableButton" */;
+			buildConfigurationList = 7662E5DE39A47081D41B528F6CF2B5FC /* Build configuration list for PBXNativeTarget "SKDesignableButton" */;
 			buildPhases = (
-				F830E209219D203B7B995E4E0192B26D /* Sources */,
-				F7125BB81511E0A72E439AE7011923C5 /* Frameworks */,
-				42BD72D26F416103109799B6799A306D /* Headers */,
+				35D4AE6703582866817F2D9AC9945142 /* Sources */,
+				B87DF591DCEEE3F61A62395BA1E5ED52 /* Frameworks */,
+				73FB3990607914C8438201E55475EA51 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -266,7 +428,7 @@
 			);
 			name = SKDesignableButton;
 			productName = SKDesignableButton;
-			productReference = 435B059F114F5654BEB248876CD5ACED /* SKDesignableButton.framework */;
+			productReference = A820F1696BC3D0F134944B4C64AD2D8D /* SKDesignableButton.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		6E7BED7D45B43BFF671147F81E2E6ACC /* Pods-SKDesignableButton_Tests */ = {
@@ -283,25 +445,43 @@
 			);
 			name = "Pods-SKDesignableButton_Tests";
 			productName = "Pods-SKDesignableButton_Tests";
-			productReference = C0B0B39B03CC00A8E70CA737906106F9 /* Pods_SKDesignableButton_Tests.framework */;
+			productReference = 30B86F165FA3F5B512394D873FDF7F09 /* Pods_SKDesignableButton_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		8667AB3D4EB9AEA4B3EB06D37AB4B604 /* Pods-SKDesignableButton_Example */ = {
+		AAE24ACA00B7B35A5EB9168B684E5317 /* DynamicButton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 340ED8FDC59421C39FF6BB9DE3576D02 /* Build configuration list for PBXNativeTarget "Pods-SKDesignableButton_Example" */;
+			buildConfigurationList = B526A559BBDEC9021BA0144D618FDDF4 /* Build configuration list for PBXNativeTarget "DynamicButton" */;
 			buildPhases = (
-				C6CEBC8AAA19A221A6DECAC5A1AC3B83 /* Sources */,
-				23532AA42031D8B959EE2063C0B64405 /* Frameworks */,
-				ADD91D324B3F78AB7D4975472B3F5899 /* Headers */,
+				C0413766E060813A26738D9D6D430DC9 /* Sources */,
+				5594EEB9C90FBBFF62D7CE5B9A397331 /* Frameworks */,
+				2ED7D410B80EC570A087443D943BCF60 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				83E26C89757C3D5E817522737285F2E3 /* PBXTargetDependency */,
+			);
+			name = DynamicButton;
+			productName = DynamicButton;
+			productReference = 4357BDBB435B4597FC9936B6EF381E9F /* DynamicButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F71E03C657C492E49A87BAEE658AD846 /* Pods-SKDesignableButton_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF157A5C3862CC0C61076586280E4CA5 /* Build configuration list for PBXNativeTarget "Pods-SKDesignableButton_Example" */;
+			buildPhases = (
+				2FB6FC0E82F103EB7EA49DC8962D20F4 /* Sources */,
+				ED67965DDA24B5FBF0BB69CFC5C74DD3 /* Frameworks */,
+				04683416ADB064411BB560125080B38C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE1B91ACB077C019CCD107AF23344F10 /* PBXTargetDependency */,
+				4736A1572E99E7D98A001A60DA45A6A2 /* PBXTargetDependency */,
 			);
 			name = "Pods-SKDesignableButton_Example";
 			productName = "Pods-SKDesignableButton_Example";
-			productReference = 4962C1E50FCC8BA223A92254E3540F32 /* Pods_SKDesignableButton_Example.framework */;
+			productReference = 8F647335212111B603D76EC9A3A512F9 /* Pods_SKDesignableButton_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -321,23 +501,71 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 249CE7C785796E961C5E5EE91CE68B61 /* Products */;
+			productRefGroup = 5D48D59CF54028A18F8ADAB0FA00E44C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8667AB3D4EB9AEA4B3EB06D37AB4B604 /* Pods-SKDesignableButton_Example */,
+				AAE24ACA00B7B35A5EB9168B684E5317 /* DynamicButton */,
+				F71E03C657C492E49A87BAEE658AD846 /* Pods-SKDesignableButton_Example */,
 				6E7BED7D45B43BFF671147F81E2E6ACC /* Pods-SKDesignableButton_Tests */,
-				1C650A45427FBF60F290781921EA1DA0 /* SKDesignableButton */,
+				23CE1C79EC6EBE50F427D9689806D63E /* SKDesignableButton */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C6CEBC8AAA19A221A6DECAC5A1AC3B83 /* Sources */ = {
+		2FB6FC0E82F103EB7EA49DC8962D20F4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCC38C34FCDA0D892AD671E0D313ED11 /* Pods-SKDesignableButton_Example-dummy.m in Sources */,
+				F8C9E662CB7C3A420E706A8D0B3CCEE5 /* Pods-SKDesignableButton_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35D4AE6703582866817F2D9AC9945142 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				489F5C27A87C91633CED4755868D9BFE /* SKDesignableButton-dummy.m in Sources */,
+				55A10D35CF6C078F81DF83E8793CCB6B /* SKDesignableButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0413766E060813A26738D9D6D430DC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02DA0B7DDADC2A3860AFFE5052FEC99F /* DynamicButton-dummy.m in Sources */,
+				8A2B52FCC4F5C813B70A94BFAE7D24D5 /* DynamicButton.swift in Sources */,
+				E9EF40D4204A4884FE38020080FF2D51 /* DynamicButtonStyle.swift in Sources */,
+				085001B0C4983085045E8DCD71FFCE6C /* DynamicButtonStyleArrowDown.swift in Sources */,
+				7280A91C6C7508B6D82C755F40772C17 /* DynamicButtonStyleArrowLeft.swift in Sources */,
+				F3726F74C43DB3BE4A51AD3F480D29DC /* DynamicButtonStyleArrowRight.swift in Sources */,
+				BC90D58697892020E2F2F2D69DB9761E /* DynamicButtonStyleArrowUp.swift in Sources */,
+				95D78044963340B7CE31E82F96DD9C99 /* DynamicButtonStyleCaretDown.swift in Sources */,
+				B51FEC4EBB8A679184DCA38ED5FD2301 /* DynamicButtonStyleCaretLeft.swift in Sources */,
+				4AAA32AE79331482048A2BF5164E237D /* DynamicButtonStyleCaretRight.swift in Sources */,
+				276F47CC7EC67090E110DBDE7156AA72 /* DynamicButtonStyleCaretUp.swift in Sources */,
+				D8D6C0DDA65FC12591C67851F7585F95 /* DynamicButtonStyleCheckMark.swift in Sources */,
+				C78A65154E32610D313207E258256D15 /* DynamicButtonStyleCircleClose.swift in Sources */,
+				85DB37167784FCC49672C51155C5A321 /* DynamicButtonStyleCirclePlus.swift in Sources */,
+				6F16EA77E2BECC0DF9C36696191405EA /* DynamicButtonStyleClose.swift in Sources */,
+				E51676DF4BB97DFBBFF5E685BA131B9B /* DynamicButtonStyleDot.swift in Sources */,
+				1C403B5EB32D705543C7CCDEE4B4EC59 /* DynamicButtonStyleDownload.swift in Sources */,
+				AD102D0B847AC67C973F7A8D59B82DE0 /* DynamicButtonStyleFastForward.swift in Sources */,
+				4313B742D8BF3FBF8E51AA05295534C4 /* DynamicButtonStyleHamburger.swift in Sources */,
+				DE5A68220135A9592056B55DF474E2DC /* DynamicButtonStyleHorizontalLine.swift in Sources */,
+				8BDA7C4F0B42C3635EB49DB292AD7515 /* DynamicButtonStyleHorizontalMoreOptions.swift in Sources */,
+				9A72870177D8CA7841AF6F9BB8C54E5F /* DynamicButtonStyleNone.swift in Sources */,
+				2F632A4D1ADD5136B02A32C056154E95 /* DynamicButtonStylePause.swift in Sources */,
+				999DD8BEF7680C24E947FC3DA9D83B53 /* DynamicButtonStylePlay.swift in Sources */,
+				9B46F6A57B8E17B8B07E1944C4D01946 /* DynamicButtonStylePlus.swift in Sources */,
+				9588AA025059E33574CAC925D7594813 /* DynamicButtonStyleReload.swift in Sources */,
+				1469C8F5CBE1840B72789D3C0E217F1C /* DynamicButtonStyleRewind.swift in Sources */,
+				3C23CEF4673BC25D4182C31836C7779B /* DynamicButtonStyleStop.swift in Sources */,
+				0A472E63CF2A259EDDC473BE03174CBD /* DynamicButtonStyleVerticalLine.swift in Sources */,
+				C1F86D58603A88EF0D11BE51148BBE96 /* DynamicButtonStyleVerticalMoreOptions.swift in Sources */,
+				9AC0FAB323E6EFA9E4F1C9F4E9A07A28 /* PathHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,30 +577,59 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F830E209219D203B7B995E4E0192B26D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4943BF9BA86C05F4840361DD4A3543F7 /* SKDesignableButton.swift in Sources */,
-				FA37A321753FA3EE3CAF685344189F8E /* SKDesignableButton-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		83E26C89757C3D5E817522737285F2E3 /* PBXTargetDependency */ = {
+		4736A1572E99E7D98A001A60DA45A6A2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SKDesignableButton;
-			target = 1C650A45427FBF60F290781921EA1DA0 /* SKDesignableButton */;
-			targetProxy = 3A8C9EC8C959A79411CA5A55A4B808E7 /* PBXContainerItemProxy */;
+			target = 23CE1C79EC6EBE50F427D9689806D63E /* SKDesignableButton */;
+			targetProxy = 594CE18A8ECA0CFAD1193ED33F7D7022 /* PBXContainerItemProxy */;
+		};
+		AE1B91ACB077C019CCD107AF23344F10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DynamicButton;
+			target = AAE24ACA00B7B35A5EB9168B684E5317 /* DynamicButton */;
+			targetProxy = 701A1E00E519E34CB069A5475FAAB917 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0356837E78C95947EDEE5D571D9E2FD5 /* Debug */ = {
+		57E1ACF60CD6156EB155D299D0D922E4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EEB49D8917D88E2959E517025D8C887B /* Pods-SKDesignableButton_Example.debug.xcconfig */;
+			baseConfigurationReference = FD75827EEEAAE5298C355FEE30814B07 /* DynamicButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DynamicButton/DynamicButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DynamicButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DynamicButton/DynamicButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DynamicButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7C89F3F53F4EF544B8B1B1BD8A46AEBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA6CD16E0BD30CDA2BABE6CAF7B2C908 /* SKDesignableButton.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -385,93 +642,23 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-SKDesignableButton_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SKDesignableButton_Example/Pods-SKDesignableButton_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SKDesignableButton_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		3AA206A9621B0A4728A89CF33C98F5F1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA6CD16E0BD30CDA2BABE6CAF7B2C908 /* SKDesignableButton.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/SKDesignableButton/SKDesignableButton-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SKDesignableButton/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SKDesignableButton/SKDesignableButton.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = SKDesignableButton;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
-		};
-		6F4FF3CABB14BAF9F2AE0A6364A95992 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29D1BB38947859D1E6D7C46B288A66C9 /* Pods-SKDesignableButton_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-SKDesignableButton_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SKDesignableButton_Example/Pods-SKDesignableButton_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SKDesignableButton_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
+			name = Debug;
 		};
 		81C48307138426B2E2F2729D7A353FBC /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -583,6 +770,38 @@
 			};
 			name = Debug;
 		};
+		91E72FDE8364EEF9202BB577E99C021C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA6CD16E0BD30CDA2BABE6CAF7B2C908 /* SKDesignableButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SKDesignableButton/SKDesignableButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SKDesignableButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SKDesignableButton/SKDesignableButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SKDesignableButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -627,9 +846,9 @@
 			};
 			name = Debug;
 		};
-		AA5F339F8B1A8CA44BE14DCEE6A5BF88 /* Debug */ = {
+		CE7E5C384F3B6BF7B43A57F57895EEDA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA6CD16E0BD30CDA2BABE6CAF7B2C908 /* SKDesignableButton.xcconfig */;
+			baseConfigurationReference = FD75827EEEAAE5298C355FEE30814B07 /* DynamicButton.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -642,14 +861,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SKDesignableButton/SKDesignableButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SKDesignableButton/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/DynamicButton/DynamicButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DynamicButton/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SKDesignableButton/SKDesignableButton.modulemap";
+				MODULEMAP_FILE = "Target Support Files/DynamicButton/DynamicButton.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SKDesignableButton;
+				PRODUCT_NAME = DynamicButton;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -659,6 +878,77 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		F13423F64677188DD8A9ACC0C0A542D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEB49D8917D88E2959E517025D8C887B /* Pods-SKDesignableButton_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SKDesignableButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SKDesignableButton_Example/Pods-SKDesignableButton_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SKDesignableButton_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F5C66E64F3B031F57393AC9B001C8796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29D1BB38947859D1E6D7C46B288A66C9 /* Pods-SKDesignableButton_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SKDesignableButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SKDesignableButton_Example/Pods-SKDesignableButton_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SKDesignableButton_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -672,20 +962,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		340ED8FDC59421C39FF6BB9DE3576D02 /* Build configuration list for PBXNativeTarget "Pods-SKDesignableButton_Example" */ = {
+		7662E5DE39A47081D41B528F6CF2B5FC /* Build configuration list for PBXNativeTarget "SKDesignableButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0356837E78C95947EDEE5D571D9E2FD5 /* Debug */,
-				6F4FF3CABB14BAF9F2AE0A6364A95992 /* Release */,
+				7C89F3F53F4EF544B8B1B1BD8A46AEBA /* Debug */,
+				91E72FDE8364EEF9202BB577E99C021C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ABF45369CCBF7BF9777DF47910728F5C /* Build configuration list for PBXNativeTarget "SKDesignableButton" */ = {
+		B526A559BBDEC9021BA0144D618FDDF4 /* Build configuration list for PBXNativeTarget "DynamicButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AA5F339F8B1A8CA44BE14DCEE6A5BF88 /* Debug */,
-				3AA206A9621B0A4728A89CF33C98F5F1 /* Release */,
+				CE7E5C384F3B6BF7B43A57F57895EEDA /* Debug */,
+				57E1ACF60CD6156EB155D299D0D922E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF157A5C3862CC0C61076586280E4CA5 /* Build configuration list for PBXNativeTarget "Pods-SKDesignableButton_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F13423F64677188DD8A9ACC0C0A542D3 /* Debug */,
+				F5C66E64F3B031F57393AC9B001C8796 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

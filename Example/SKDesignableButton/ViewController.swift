@@ -7,12 +7,26 @@
 //
 
 import UIKit
+import SKDesignableButton
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let button = SKDesignableButton(
+            frame: CGRect(x: 0, y:200, width:200, height:30),
+            title: "Made by code",
+            borderColor: UIColor.black,
+            borderWidth: 2.0,
+            cornerRadius: 5.0
+        )
+        
+        button.center.x = view.center.x
+        button.setTitleColor(UIColor.black, for: .normal)
+        
+        self.view.addSubview(button)
+        
     }
 
     override func didReceiveMemoryWarning() {

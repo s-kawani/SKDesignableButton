@@ -2,6 +2,7 @@ use_frameworks!
 
 target 'SKDesignableButton_Example' do
   pod 'SKDesignableButton', :path => '../'
+  pod 'DynamicButton'
 
   target 'SKDesignableButton_Tests' do
     inherit! :search_paths

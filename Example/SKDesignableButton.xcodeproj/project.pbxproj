@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2C6128840FB2CA3AD784A96E /* SKDesignableButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SKDesignableButton.podspec; path = ../SKDesignableButton.podspec; sourceTree = "<group>"; };
+		2C6128840FB2CA3AD784A96E /* SKDesignableButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SKDesignableButton.podspec; path = ../SKDesignableButton.podspec; sourceTree = "<group>"; };
 		32A20C9C6005FC434C064B31 /* Pods-SKDesignableButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKDesignableButton_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SKDesignableButton_Tests/Pods-SKDesignableButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		477E05BC2EEC8C02A225787D /* Pods-SKDesignableButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKDesignableButton_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SKDesignableButton_Tests/Pods-SKDesignableButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SKDesignableButton_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKDesignableButton_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,12 +41,12 @@
 		607FACE51AFB9204008FA782 /* SKDesignableButton_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKDesignableButton_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		8BC91AB286624694B5961CA5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8BC91AB286624694B5961CA5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A2FEC15BC073233F58630942 /* Pods_SKDesignableButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SKDesignableButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF4AC0A1F2A74C8F12EC3ACB /* Pods_SKDesignableButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SKDesignableButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C91DA24B42BA0940D2D5FDF2 /* Pods-SKDesignableButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKDesignableButton_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SKDesignableButton_Example/Pods-SKDesignableButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D62FEEBDDAD974B050BA8FB9 /* Pods-SKDesignableButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKDesignableButton_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SKDesignableButton_Example/Pods-SKDesignableButton_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E0F5D74D813459D124C5F80F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E0F5D74D813459D124C5F80F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,6 +215,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 47P6F6LVLL;
 						LastSwiftMigration = 0820;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -496,6 +497,7 @@
 			baseConfigurationReference = C91DA24B42BA0940D2D5FDF2 /* Pods-SKDesignableButton_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 47P6F6LVLL;
 				INFOPLIST_FILE = SKDesignableButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -510,6 +512,7 @@
 			baseConfigurationReference = D62FEEBDDAD974B050BA8FB9 /* Pods-SKDesignableButton_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 47P6F6LVLL;
 				INFOPLIST_FILE = SKDesignableButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;

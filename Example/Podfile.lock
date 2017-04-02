@@ -1,7 +1,9 @@
 PODS:
+  - DynamicButton (3.1.0)
   - SKDesignableButton (0.1.0)
 
 DEPENDENCIES:
+  - DynamicButton
   - SKDesignableButton (from `../`)
 
 EXTERNAL SOURCES:
@@ -9,8 +11,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SKDesignableButton: 6b25795cbeae845b3174e15f490c83eb46cb4638
+  DynamicButton: 37968af761a31274aeac427f40204688fa810342
+  SKDesignableButton: 9f4b78f953c7e93c83cd77c27032536b6b7c18fa
 
-PODFILE CHECKSUM: a6d86bab31e8be3f8868ed7345587e65cbbc440e
+PODFILE CHECKSUM: dd8417319451a510f82f21ac3e380b0400783d95
 
 COCOAPODS: 1.1.1
