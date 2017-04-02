@@ -11,18 +11,22 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+Xcode8
+Swift3.0+
+iOS8+
+
 ## Installation
 
 SKDesignableButton is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "SKDesignableButton"
+pod 'SKDesignableButton', :git => 'git@github.com:s-kawani/SKDesignableButton'
 ```
 
 ## Author
 
-shin-kawani, s.kawani@gmail.com
+shin-kawani, me@shinkawani.com
 
 ## License
 
