@@ -10,9 +10,9 @@ import UIKit
 @IBDesignable
 final public class SKDesignableButton: UIButton {
   
-  @IBInspectable var borderColor :  UIColor = UIColor.blue
-  @IBInspectable var borderWidth : CGFloat = 1.0
-  @IBInspectable var cornerRadius : CGFloat = 5.0
+  @IBInspectable public var borderColor :  UIColor = UIColor.blue
+  @IBInspectable public var borderWidth : CGFloat = 1.0
+  @IBInspectable public var cornerRadius : CGFloat = 5.0
   
   override public func draw(_ rect: CGRect) {
     layer.borderColor = borderColor.cgColor
