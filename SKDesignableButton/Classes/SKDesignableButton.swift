@@ -37,10 +37,6 @@ final public class SKDesignableButton: UIButton {
       self.borderColor = borderColor!
     }
     
-    if title != nil {
-      self.setTitle(title, for: .normal)
-    }
-    
     if borderColor != nil {
       self.borderColor = borderColor!
     }
@@ -52,6 +48,8 @@ final public class SKDesignableButton: UIButton {
     if cornerRadius != nil {
       self.cornerRadius = cornerRadius!
     }
+    
+    self.setTitle(title, for: .normal)
     
   }
   

@@ -234,7 +234,7 @@ between each style changes.
   // Store the background color color variable
   var defaultBackgroundColor: UIColor = .clear
 
-  func highlightAction() {
+  @objc func highlightAction() {
     defaultBackgroundColor = backgroundColor ?? UIColor.clear
     backgroundColor        = highlightBackgroundColor ?? defaultBackgroundColor
 
@@ -251,7 +251,7 @@ between each style changes.
     }
   }
 
-  func unhighlightAction() {
+  @objc func unhighlightAction() {
     backgroundColor = defaultBackgroundColor
 
     for sublayer in allLayers {
